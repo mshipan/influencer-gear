@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Manrope, sans-serif;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+main{
+    margin: 0px 250px;
+}
+
+/* ------------------
+    Header Navigation Section
+    ------------------------------- */
+
+.header{
+    width: 100%;
+}
+
+.header-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 15vh;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+/* Breadcrumbs */
+/* .logo-icon > i{
+    display: none;
+    font-size: 25px;
+    color: #3A3A3A;
+} */
+
+.logo2{
+    display: none;
+}
+
+.logo2 > .shopping > a{
+    text-decoration: none;
+    color: #3A3A3A;
+    list-style: none;
+}
+
+.logo h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav > ul{
+    display: flex;
+    gap: 35px;
+    margin-right: 35px;
+}
+
+.nav > ul > li{
+    list-style: none;
+}
+
+.nav > ul > li > a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.nav-items{
+    display: flex;
+    gap: 35px;
+}
+
+.nav-items > .search > a{
+    text-decoration: none;
+    color: #3A3A3A;
+    list-style: none;
+}
+
+.nav-items > .shopping > a{
+    text-decoration: none;
+    color: #3A3A3A;
+    list-style: none;
+}
+
+/* ------------------
+    Banner Section
+    ------------------------------- */
+.banner{
+    width: 100%;
+}
+
+.banner-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text-title > h1{
+    font-weight: bolder;
+    font-size: 52px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.banner-text-description > p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.banner-image-area{
+    background-color: #f1e4ff73;
+    border-radius: 48% 52% 54% 46% / 49% 50% 50% 51% ;
+}
+
+.btn-primary{
+    background: #E02C6D;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* ------------------
+    Brand Section
+    ------------------------------- */
+.brand{
+    width: 100%;
+    margin-top: 70px;
+}
+
+.brand-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    border: 1px solid rgba(125, 125, 125, 0.295);
+    border-left: none;
+    border-right: none;
+}
+
+.brand-area-images{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+/* ----------------------
+    Popular Collection Section
+    -----------------------------  */
+.popular{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.popular-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-area-title > h1{
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+}
+.popular-box{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.popular-area-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.item-title > h3{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+
+.item-price > h4{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.rating-icon{
+    color: #FB8200;
+}
+
+.rating-text{
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
+
+.item-details > p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+
+.sea-more{
+    display: grid;
+    grid-column: 3 / -1;
+    justify-content: end;
+}
+
+.sea-more > a{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    text-decoration: none;
+}
+
+/* -----------------
+    Feature Area Section
+    ------------------------  */
+.feature{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.feature-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.feature-area-text-title > h3{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 15px;
+}
+
+.feature-area-text-description > p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 15px;
+}
+
+.feature-area-text-button .btn-primary{
+    border-radius: 0;
+}
+
+
+/* -----------------
+    Influence Footer Area
+    ---------------------  */
+.footer{
+    width: 100%;
+    background-color:#0A0826;
+}
+
+.footer-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-title > h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.footer-description > p{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+    margin-bottom: 15px;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-icons > .icon{
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 5px 13px;
+    background: #ffffff25;
+    border-radius: 50px;
+}
+
+/* Media Queries  */
+
+/* ------------
+    Mobile Screen
+    ---------------  */
+@media only screen and (max-width: 688px){
+    /* header area  */
+    main{
+        margin: 0;
+    }
+
+    .header-area{
+        justify-content: center;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logo2{
+        display: flex;
+        align-items: center;
+        gap: 45px;
+        font-size: 16px;
+    }
+  
+    .nav{
+        display: none;
+    }
+
+    .navbar > .nav-items > .search{
+        display: none;
+    }
+    /* Banner Area  */
+    .banner-area{
+        flex-direction: column-reverse;
+    }
+
+    .banner-image-area > img{
+        width: 325px;
+        height: 325px;
+    }
+
+    .banner-text-title > h1{
+    font-size: 28px;
+    text-align: center;
+    }
+
+    .banner-text-description > p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .banner-text-description > p > br{
+        display: none;
+    }
+
+    .banner-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-button > button.btn-primary{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Brand Area  */
+
+    .brand-area{
+        text-align: center;
+    }
+    .brand-area-images{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-logo > img{
+        width: 50%;
+    }
+
+    /* Popular Collection Area  */
+    .popular-area-title > h1{
+        font-size: 16px;
+    }
+
+    .popular-area-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-title > h3{
+        font-size: 28px;
+    }
+
+    .item-price > h4{
+        font-size: 24px;
+    }
+
+    /* Feature Area  */
+
+    .feature-area{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .feature-area-text{
+        margin-bottom: 30px;
+    }
+
+    .feature-area-text-title > h3{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .feature-area-text-description > p{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .feature-area-text-description > p > br{
+        display: none;
+    }
+
+    .feature-area-text-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature-area-image > img{
+        width: 299px;
+        height: 188px;
+    }
+
+    .feature-area-text-button > button.btn-primary{
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+/* ------------
+    Tablet Screen
+    ---------------  */
+@media only screen and (min-width: 689px) and (max-width: 992px){
+    
+}
+
+/* ------------
+    Desktop Screen
+    ---------------  */
+@media only screen and (max-width: 993px) and (max-width: 1312px){
+    
+}
